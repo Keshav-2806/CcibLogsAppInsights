@@ -66,7 +66,7 @@ namespace CcibLogsAppInsights
             }
             catch (Exception ex)
             {
-                log.LogError($"Exception occurred: {ex.Message} ");
+                log.LogError($"Exception occurred: {ex.Message}");
                 return new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
         }
